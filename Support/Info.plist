@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Terminalus</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.terminalus.app</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Terminalus</string>
+	<key>CFBundleDisplayName</key>
+	<string>Terminalus</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Terminalus — a terminal with a file tree and live system stats.</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Folder</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.folder</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Commands you run in Terminalus and the file tree may need to read your Desktop folder.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Commands you run in Terminalus and the file tree may need to read your Documents folder.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Commands you run in Terminalus and the file tree may need to read your Downloads folder.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>Commands you run in Terminalus and the file tree may need to read removable volumes.</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>Commands you run in Terminalus and the file tree may need to read network volumes.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Commands you run in Terminalus may control other apps with AppleScript.</string>
+</dict>
+</plist>

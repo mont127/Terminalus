@@ -1,0 +1,12 @@
+# Build output
+.build/
+build/
+build-*/
+DerivedData/
+.swiftpm/
+*.xcodeproj
+
+# Downloaded and patched by scripts/bootstrap-swiftterm.sh
+Vendor/
+
+.DS_Store

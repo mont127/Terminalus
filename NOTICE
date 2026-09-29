@@ -1,0 +1,14 @@
+Terminalus
+Copyright 2026 The Terminalus authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party software
+--------------------
+
+SwiftTerm (https://github.com/migueldeicaza/SwiftTerm) is downloaded by
+scripts/bootstrap-swiftterm.sh at build time and compiled into the app.
+It is distributed under the MIT License:
+  Copyright (c) 2019-2026 Miguel de Icaza
+  Copyright (c) 2017-2019, The xterm.js authors
+  Copyright (c) 2014-2016, SourceLair Private Company
